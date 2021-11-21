@@ -1,0 +1,11 @@
+>>> word = "mississippi"
+>>> counter = {}
+
+>>> for letter in word:
+...     if letter not in counter:
+...         counter[letter] = 0
+...     counter[letter] += 1
+...
+
+>>> counter
+{'m': 1, 'i': 4, 's': 4, 'p': 2}
