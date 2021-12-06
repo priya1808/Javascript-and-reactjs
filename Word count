@@ -1,3 +1,5 @@
+>>> from math import py
+
 >>> word = "mississippi"
 >>> counter = {}
 
